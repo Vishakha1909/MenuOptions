@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>DropDownMenu</title>
 </head>
 <body>
-    
+    <div class = "site-title">
+        <h1><center>Trying Dropdown Menus</center></h1>
+    </div>
+    <div class = "nav-bar">
+        <ul id="menu">
+            <li class="parent"><a href="#">Home</a>
+            </li>
+            <li class="parent"><a href="#">About Us</a>
+            <ul class="child">			
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Vision and Mission</a></li>
+                <li class="parent"><a href="#">Governability</a></li>
+                <li><a href="#">Leadership</a></li>
+            </ul>
+            </li>
+            <li class="parent"><a href="#">Academics</a>
+            <ul class="child">			
+                <li><a href="#">Overview</a></li>
+                <li class="parent"><a href="#">Programmes Offered<span class="expand">»</span></a>
+                    <ul class="child">
+                    <li><a href="#">AY 2021 - 2022</a></li>
+                    <li><a href="#">AY 2020 - 2021</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Academic Regulations</a></li>
+                <li><a href="#">FFCS</a></li>
+            </ul>
+            </li>
+            <li class="parent"><a href="#">Admissions</a>
+                <ul class="child">			
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Programmes Offered</a></li>
+                    <li><a href="#">Undergraduate</a></li>
+                    <li><a href="#">Postgraduate</a></li>
+                    <li class="parent"><a href="#">Research<span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="#">Integrated PHD</a></li>
+                        <li><a href="#">PHD</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">International</a></li>
+                </ul>
+            </li>
+            <li class="parent"><a href="#">Campus Life</a>
+                <ul class="child">			
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Fests</a></li>
+                    <li class="parent"><a href="#">Student Welfare<span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="#">Student Clubs</a></li>
+                        <li><a href="#">Student Chapters</a></li>
+                        <li><a href="#">Campus Events</a></li>
+                        <li><a href="#">Counselling Division</a></li>
+                        <li><a href="#">Student Council</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Hostels</a></li>
+                    <li><a href="#">Health Services</a></li>
+                    <li><a href="#">Other Amenities</a></li>
+                    <li><a href="#">Green Campus</a></li>
+                </ul>
+            </li>
+            <li class="parent"><a href="#">Career Development Center</a>
+                <ul class="child">			
+                    <li><a href="#">Overview</a></li>
+                    <li class="parent"><a href="#">Offers<span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="#">Super Dream Offers</a></li>
+                        <li><a href="#">Dream Offers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Internships</a></li>
+                    <li><a href="#">Statistics</a></li>
+                </ul>
+            </li>
+            <li class="parent"><a href="#">International Relations</a>
+                <ul class="child">			
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Partner Universities</a></li>
+                    <li class="parent"><a href="#">Programs<span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="#">SAP</a></li>
+                        <li><a href="#">ITP</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="parent"><a href="#">Research</a>
+                <ul class="child">			
+                    <li><a href="#">Overview</a></li>
+                    <li class="parent"><a href="#">Types<span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="#">Academic Research</a></li>
+                        <li><a href="#">Sponsored Research</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">IPR Cell</a></li>
+                    <li><a href="#">Research Centers</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
